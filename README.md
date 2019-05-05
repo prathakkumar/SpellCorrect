@@ -5,4 +5,4 @@ Navigate to
 
 http://localhost:5000/spellCorrect?input_term=homeAssigment
 
-http://localhost:5000/spellCorrect?input_term=schoolbag 
+http://localhost:5000/spellCorrect?input_term=schoolbag
