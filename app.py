@@ -23,7 +23,6 @@ def load_package():
         print("Dictionary file not found")
     return SYM_SPELL
 
-
 @app.route('/spellCorrect', methods=['GET'])
 def get_tasks():
     input_term = request.args['input_term']
