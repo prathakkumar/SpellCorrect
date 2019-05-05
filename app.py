@@ -1,5 +1,3 @@
-"""                                 """
-
 import os
 from flask import Flask, jsonify, request
 from symspellpy.symspellpy import SymSpell, Verbosity
