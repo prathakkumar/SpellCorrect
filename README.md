@@ -1,6 +1,15 @@
 # SpellCorrect Flask
 SpellCorrect Flask is a web app based on Flask and symspellpy package. SpellCorrect processeses the text and give suggestions for mispelled words.
 
+Setup
+
+Install the requirements and setup the development environment.
+
+pip3 install -r requirements.txt
+
+Run the application.
+
+python app.py
 
 Navigate to
 
