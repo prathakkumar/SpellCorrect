@@ -3,7 +3,7 @@ SpellCorrect Flask is a web app based on Flask and symspellpy package. SpellCorr
 
 # Setup
 
-Install all the dependency mentioned in requirements.txt
+Install the requirements and setup the development environment.
 
 pip install -r requirements.txt
 
@@ -11,6 +11,7 @@ Run Flask app
 
 python main.py
 
-Use get method
+Navigate to
 http://localhost:5000/spellCorrect?input_term=homeAssigment
+
 http://localhost:5000/spellCorrect?input_term=schoolbag 
