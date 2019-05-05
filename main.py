@@ -34,7 +34,6 @@ def get_tasks():
                                             max_edit_distance_lookup)
     for suggestion in suggestions:
         correct_words.append(suggestion.term)
-    
     suggestion_verbosity = Verbosity.CLOSEST  
     suggestions = sym_spell.lookup(input_term, suggestion_verbosity,
                                    max_edit_distance_lookup)
@@ -42,7 +41,6 @@ def get_tasks():
         if suggestion.term not in correct_words:
             correct_words.append(suggestion.term)
     return jsonify(correct_words)
-
 
 if __name__ == '__main__':
     app.run(debug=True)
