@@ -12,7 +12,6 @@ def load_package():
         return SYM_SPELL
     max_edit_distance_dictionary = 2
     prefix_length = 7
-    
     SYM_SPELL = SymSpell(max_edit_distance_dictionary, prefix_length)
     
     dictionary_path = os.path.join(os.path.dirname(__file__),
