@@ -3,6 +3,4 @@ SpellCorrect Flask is a web app based on Flask and symspellpy package. SpellCorr
 
 Navigate to
 
-http://localhost:5000/spellCorrect?input_term=homeAssigment
-
 http://localhost:5000/spellCorrect?input_term=schoolbag
